@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="ÜTF-8">
+        <meta name="author" content="elishacelestine">
+        <meta name="description" content="loginpage">
+        <title>Login Page</title>
+        <style>
+            body {
+                font-family: 'Arial', Helvetica, sans-sarif;
+                background:  #7c3aed;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+                margin: 0;
+            }
+            
+            .login-form {
+                background: #ffffff;
+                padding: 60px;
+                width: 100%;
+                max-width: 300px;
+                border-radius: 16px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                border: 1px solid #eee0f7;
+                
+            }
+            .form-title {
+                font-size: 35px;
+                font-weight: 700;
+                color:  #7c3aed;
+                margin-bottom: 8px;
+            }
+            .form-subtitle {
+                font-size: 16px;
+                color: #6b7280;
+                margin-bottom: 5px;
+            }
+            .form-label {
+                display: black;
+                font-size: 14px;
+                font-weight: 600;
+                color: #374151;
+                margin-bottom:8px;
+            }
+            .form-input {
+                width: 100%;
+                padding: 17px 16px;
+                border: 1px solid  #7c3aed;
+                font-size: 14px;
+                border-radius: 10px
+            }
+            .submit-btn {
+                width: 100%;
+                padding: 17px;
+                background: linear-gradient(90deg, #7c3aed, #a8557f);
+                color: #ffffff;
+                border-radius: 10px;
+                font-size: 15px;
+                cursor: pointer;
+                margin-top: 8px;
+            }
+            .back-class {
+                margin-top: 8px;
+                text-align: left;
+
+            }
+            .login-new {
+                color: black;
+                font-family: arial;
+                font-size: 15px;
+            }
+            .login-btn {
+                padding: 13px 13px;
+                border-radius: 10px;
+                cursor: pointer;
+                background: rgba(10, 166, 239, 0.774);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="login-form">
+            <div class="form-title">Login</div>
+            <br>
+            <div class="form-subtitle">
+                <strong>Welcome back! Login to your account.</strong>
+            </div>
+            <br>
+            <br>
+
+            <form action="https://formspree.io/f/xrpgylyr"
+        method="post">
+            <div class="form-group">
+                <label class="form-label"
+                for="name">Username</label>
+                <br>
+                <input type="text" id="name" class="form-input"
+                    placeholder="elitechdigital" required="on" />
+            </div>
+            <br>
+            <div class="form-group">
+                <label class="form-label" for="email">
+                    Email Address
+                </label>
+                <br>
+                <input type="email" id="email" class="form-input"
+                    placeholder="ex@gmail.com" required="on" />
+            </div>
+            <br>
+
+            <div class="form-group">
+                <label class="form-label" for="password">Password</label>
+                <br>
+                <input type="password" id="password" class="form-input" required="on" />
+            </div>
+            <button class="submit-btn">Login</button>
+            </form>
+            <div class="back-class">
+            <a href="8.index.html">Back to homepage</a>
+            </div
+            <br>
+            <br>
+            <form action="13.index.html" method="get">
+            <div class="login-new">
+                Don't have an account <button class="login-btn" >Create Account</button>
+            </div>
+            </form>
+        
+    </body>
+    </html>    
+        
+        

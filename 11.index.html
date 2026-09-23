@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="elishacelestine">
+        <meta name="description" content="genesisrestaurantcontactform">
+        <title>Contact Us</title>
+
+        <style>
+            body {
+                background-image: url(img/genesis.background.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-family: "arial", sans-serif;
+                color: white;
+                text-align: center;
+            }
+
+            h1 {
+                color: black;
+                padding: 10px 10px;
+                font-size: 40px;
+            }
+
+            h2 {
+                color: black;
+                front-size: 30px
+            }
+            img {
+                border-radius: 30px;
+            }
+
+            textarea {
+                background: white;
+                color: black;
+                border-radius: 5px;
+            }
+            
+            input {
+                background: white;
+                color: black;
+                border-radius: 5px;
+                padding: 5px 10px;
+            }
+
+            button {
+                background: blue;
+                color: white;
+                padding: 5px 10px;
+                border-radius: 5px;
+                backdrop-filter: blur(15px);
+                box-shadow: 0 15px 35px rgba(0, 0, 0.5);
+            }
+              .navbar {
+                position: relative;
+                width: 735px;
+                padding: 2px 2px;
+                background: rgba(255, 255, 255,);
+                border-radius: 60px;
+                backdrop-filter: blur(15px);
+                box-shadow: 0 15px 35px rgba(0, 0, 0.5);
+                border: 1.8px solid  black;
+                position: fixed;
+                margin-bottom: 10px;
+            }
+              nav ul li a:hover {
+                background: rgba(255, 255, 255,);
+                box-shadow: 0 15px 35px rgba(0, 0, 0.5);
+                width: 55%;
+                padding: 17px;
+                border-radius: 10px;
+                transition: 0.5s;
+            }
+
+
+           /*  .navigation {
+                display: flex;
+                position: relative;
+                width: 100%;
+                padding: 2px 2px;
+                background: yellow;
+                justify-content: center;
+                align-items: center;
+                border-radius: 60px;
+                border: 2.5px solid black;
+                box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+            } */
+            nav ul {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+
+              nav ul li a {
+                text-decoration: none;
+                font-size: 20px;
+                color: black;
+            }
+            .contact {
+                color: black;
+                font-size: 30px;
+            }
+            .form {
+                background: #ffffff;
+                color: black;
+                padding: 40px;
+                width: 100%;
+                max-width: 300px;
+                border-radius: 16px;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                border: 1px solid #eee0f7;
+            }
+            .input {
+                padding: 17px;
+                width: 90%;
+                border-radius: 10px;
+                border: 1px solid black;
+            }
+            .label {
+                display: flex;
+                margin-bottom: 5px;
+                margin-top: -10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Contact Us</h1>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="8.index.html">Home</a>
+                </li>
+                <li>
+                    <a href="10.index.html">About QRS</a>
+                </li>
+                <li>
+                    <a href="8.index.html#ourmenu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="#contactform">Our Contact Form</a>
+                </li>
+                <li>
+                    <a href="12.index.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+        <br>
+        <figure>
+            <img src="img/contactgenesis.jpg" alt="contactus" title="genesis restaurant" width="300" height="300">
+            <figcaption>Genesis Restaurant</figcaption>
+        </figure>
+        <hr>
+        <div class="form">
+        <article id="contactform">
+        <h2 class="contact">Our Contact Form</h2>
+        <form action="https://formspree.io/f/xdeowdwr"
+            method="post">
+            
+                
+                <p>
+                    <label class="label" for="email">Email:</label>
+                    <input class="input" type="email" id="email" name="email" 
+                    placeholder="ex@gmail.com" 
+                    autocomplete="on" required>
+                </p>
+                <br>
+                <p>
+                    <label class="label" for="name">Name:</label>
+                    <input class="input" type="text" id="name" name="name" 
+                    placeholder="Enter your full name" 
+                    autocomplete="on" required>
+                </p>
+                <br>
+                <p>
+                    <label class="label" for="message">Add your message:</label>
+                    <textarea class="input" id="message" rows="5" cols="30" name="message" 
+                        placeholder="Enter your message" 
+                        autocomplete="on" ></textarea>
+                </p>
+            
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            </div>
+        </form>
+        </article>
+        <br>
+        <hr>
+        <h2>Our Location</h2>
+        <address>Genesis Centre, 39 Tombia Street, Phase 2, G.R.A., Port Harcourt, Rivers State, Nigeria.</address>
+        <br>
+        <p>Phone: <a href="tel:+2349031674742">+234-9031674742</a></p>
+        <br>
+        <a href="#">Back to top</a>
+        <br>
+        <br>
+        <a href="8.index.html">Back to Homepage</a>
+        <br>
+        <p>
+            copyright &copy; QRS
+        </p>
+    </body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Elisha Celestine">
+        <meta name="description" content="My Cient Webiste">
+        <title>Genesis Restaurant</title>
+
+        <style>
+            body {
+                background-color: blue;
+                color: white;
+                align-items: center;
+                text-align: center;
+                font-family: "arial", sans-serif;
+
+            }
+            .container {
+                height: 450px;
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                cursor: pointer;
+            }
+            .container img {
+                width: 20%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+                transition: all ease-in-out 1s;
+            }
+            .container img:hover {
+                width: 35%;
+            }
+
+            a {
+                color: black;
+            }
+
+            /* table, tr, th, td, caption {
+               border: 1px solid #eee
+               front-family: 'Courier New', Courier, monospace;
+               border-collapse: collapse;
+               padding: 0.5rem;
+            } */
+
+            table, tr, th, td, caption {
+                border: 3px solid red;
+                border-collapse: collapse;
+                padding: 0.5rem;
+                text-align: left;
+                justify-content: center;
+            }
+
+           
+            nav ul li a {
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+                font-family: "roboto", sans-serif;
+            }
+
+            .navbar {
+                position: relative;
+                width: 735px;
+                padding: 2px 2px;
+                background: rgba(255, 255, 255,);
+                border-radius: 60px;
+                backdrop-filter: blur(15px);
+                box-shadow: 0 15px 35px rgba(0, 0, 0.5);
+                border: 0.5px solid #ccc;
+                position: fixed;
+                margin-bottom: 10px;
+            }
+
+            nav ul li a:hover {
+                background: rgba(255, 255, 255,);
+                box-shadow: 0 15px 35px rgba(0, 0, 0.5);
+                width: 55%;
+                padding: 17px;
+                border-radius: 10px;
+                transition: 0.5s;
+
+
+            }
+
+           /*  .navigation {
+                display: flex;
+                position: relative;
+                width: 400px;
+                height: 70px;
+                background: var(--primary-bg);
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+                box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+            } */
+
+            nav ul {
+                display: flex;
+                list-style: none;
+                justify-content: center;
+                gap: 35px;
+                text-align: center;
+            }
+      
+    
+            .font {
+                font-size: 50px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            h3 {
+                font-size: 30px;
+            }
+
+            .aside {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 30px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 class="font">Welcome to Genesis Restuarant</h1>
+
+        <nav class="navbar">
+        <ul>
+            <li>
+                <a class="one" href="#aboutgenesisrestaurant">About</a>
+            </li>
+            <li>
+                <a class="two" href="#ourmenu">Our Menu</a>
+            </li>
+            <li>
+                <a class="three" href="10.index.html">About QSR</a>
+            </li>
+            <li>
+                <a class="four" href="11.index.html">Contact Us</a>
+            </li>
+            <li>
+                <a class="five" href="12.index.html">Login</a>
+            </li>
+        </ul>
+        </nav>
+
+        <br>
+        <br>
+        <img src="img/345.webp" alt="genesisrestaurant" width="550" height="290">
+
+        <article id="aboutgenesisrestaurant">
+        <h2>About Genesis Restaurant</h2>
+            <p>Genesis Restaurant is one of Nigeria most prominent casual dining and quick-service restaurant chains. It is owned by the Genesis Group, a hospitality and 
+                entertainment conglomerate founded by Dr. Nnaeto</p>
+      </article>
+      <hr>
+        <h3>Hint</h3>
+        <aside class="aside">
+            <details>
+                <summary>when did genesis restaurant first appear in Nigeria</summary>
+                <p> September 1991 is when genesis restaurant first opened in Nigeria </p>
+            </details>
+        </aside>
+        <div class="container">
+             <img src="img/picture2.jpg" >
+            <img src="img/genesis.background.jpg">
+            <img src="img/genesis 12.jpg">
+            <img src="img/genesis food.jpg">
+        </div>
+        <hr>
+
+        <article id="ourmenu">
+        <h2>Our Menu</h2>
+
+        <table>
+        <caption><strong>Our services</strong></caption>
+            <thead>
+                <tr>
+                    <th>Services</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>Fast Food</th>
+                <td>$1.20</td>
+            </tr>
+            <tr>
+                <th>Casual dine-in</th>
+                <th>$3.5</th>
+            </tr>
+            <tr>
+                <th>Outdoor Catering</th>
+                <th>$5.0</th>
+            </tr>
+            <tr>
+                <th>Home Delivery</th>
+                <th>$2.50</th>
+            </tr>
+            </tbody>
+        </table>
+        </article>
+        <hr>
+       
+        <p>
+            <a href="#">back to top</a>
+        </p>
+        <p>
+            copyright &copy; Genesis Restaurant
+        </p>
+    </body>
+</html>

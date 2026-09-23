@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" description="elisha celestine">
+        <meta name="content" description="creating an account for genesis restaurant users">
+        <title>Create Account</title>
+
+        <style>
+            body {
+                font-family: cambria;
+                display: flex;
+                align-items: center;
+                justify-content:center;
+                min-height: 100vh;
+                
+            }
+            .login-new {
+                background: #ffffff;
+                padding: 60px;
+                width: 100%;
+                max-width: 300px;
+                border-radius: 30px;
+                box-shadow: 0 10px 30px rgba(10, 166, 239, 0.774);
+                border: 1px solid #eee0f7;
+            
+                
+            }
+            .title {
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-bottom: 8px;
+            }
+            .form-subtitle {
+                font-size: 15px;
+                margin-bottom: 10px;
+                
+            }
+            .form-label {
+                margin-bottom: 8px;
+
+            }
+            .form-input {
+                width: 90%;
+                padding: 17px 16px;
+                border: 1px solid  rgba(10, 166, 239, 0.774);
+                font-size: 16px;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+            .genesis {
+                margin-top: 8px;
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            .gen-yes {
+                margin-bottom: 8px;
+                margin-top: 8px;
+                cursor: pointer;
+                
+            }
+            .gen-love {
+                width: 90%;
+                font-family: arial;
+            }
+            .area {
+                border-radius: 10px;
+                border: 1px solid rgba(10, 166, 239, 0.774);
+                font-size: 16px;
+            }
+        
+            .form-input {
+                margin-top: 5px;
+            
+            }
+            .pass-word {
+                width: 90%;
+                padding: 17px 16px;
+                border-radius: 10px;
+                border: 1px solid rgba(10, 166, 239, 0.774);
+                margin-top: 8px;
+                margin-bottom: 10px;
+            }
+            .submit-btn {
+                width: 100%;
+                padding: 17px;
+                border-radius: 10px;
+                margin-top: 10px;
+                cursor: pointer;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                background: rgba(10, 166, 239, 0.774);
+
+            }
+        </style>
+    </head>
+    <body>
+        <form action="https://formspree.io/f/xeaqrzra"
+        method="post">
+        <div class="login-new">
+            <div class="title">
+                Genesis Restaurant
+            </div>
+            <div class="form-subtitle">
+                Become a member of genesis restaurant by creating your account here!
+            </div>
+            <div class="form-class">
+                <label class="form-label" for="firstname">First Name</label>
+                <br>
+                <input type="text" id="name" 
+                class="form-input" placeholder="Elisha" required="on">
+            </div>
+            <div class="form-class">
+                <label class="form-label" for="lastname">Last Name</label>
+                <br>
+                <input type="text" id="name" class="form-input" 
+                placeholder="Celestine" required="on" >
+            </div>
+            <div class="form-class">
+                <label class="form-label" for="email">Email</label>
+                <br>
+                <input type="email" id="emial" class="form-input"
+                placeholder="ex@gmail.com" required="on">
+            </div>
+            <div class="form-class">
+                <label class="form-label" for="phonenumber">Your Number</label>
+                <br>
+                <input type="number" id="+234-9031674742" class="form-input"
+                placeholder="+234-9031674742" required="on">
+            </div>
+            <div class="genesis">
+                Have you ever visited a genesis restaurant
+                <br>
+                <input type="radio" class="gen-yes" name="decision" id="yes" value="yes">
+                <label for="yes" class="label-yes">Yes</label>
+                <br>
+                <input type="radio" class="gen-yes" name="decision" id="no" value="no">
+                <label for="no" class="label-yes">No</label>
+            </div>
+            <div class="gen-love">
+                <br>
+                <label for="message" class="message">if yes what do you love about Genesis restaurant</label>
+                <textarea class="area" name="message" id="message" rows="5" cols="30"
+                placeholder="Add your message"></textarea>
+            </div>
+            <div class="age">
+                <br>
+                <label for="age" class="display-label">Age</label>
+                <br>
+                <input type="number" id="age" class="form-input" placeholder="Enter your age" required="on">
+            </div>
+            <div class="pass">
+                <label for="password" class="password">Create your Password</label>
+                <br>
+                <input type="password" class="pass-word"
+                id="password" placeholder="e.g Gods2009will1."
+                name="password" required="on">
+            </div>
+            <div class="Con-pass">
+                <label for="password" class="password">Confirm Password</label>
+                <br>
+                <input type="password" class="pass-word"
+                id="password" name="password"
+                required="on">
+            </div>
+            <div>
+                <button class="submit-btn">Submit</button>
+            </div>
+            </form>
+        </div>
+    </body>
+</html>
